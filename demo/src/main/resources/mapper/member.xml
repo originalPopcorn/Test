@@ -1,6 +1,0 @@
-INSERT INTO test.members (idx, id, name, pw)
-VALUES(#{idx}, #{id}, #{name}, #{pw})
-
-
-DELETE FROM test.member
-where idx = #{idx}
